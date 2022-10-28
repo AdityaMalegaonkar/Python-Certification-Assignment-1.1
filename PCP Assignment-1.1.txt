@@ -1,0 +1,106 @@
+Q -> 1). Name four of the main data types in Python?
+Ans -> 1). Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data.
+Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction 
+and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte 
+strings in Python 3 are the types of string data types.
+
+Q -> 2). What does immutable mean and what three types of Python core data types are considered immutable?
+Ans -> 2). An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, 
+and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can 
+always create a new one by running an expression.
+
+Q -> 3). What does sequence mean and which three types of data fall into this category?
+Ans -> 3). A sequence data type is a collection of objects ordered by a specific position. 
+In Python, Strings, lists, and tuples are the data types based on sequences. 
+The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+Q -> 4). What does mapping mean and what kind of data type is based on mapping?
+Ans -> 4). The term mapping refers to an object that maps keys to associated values. 
+The Python dictionary is the only type of mapping in the base typeset. 
+Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+Q -> 5). What are the different types of operators in Python?
+Ans -> 5). Python has the following basic operators:
+Arithmetic (Addition(+), Substraction(-), Multiplication(*), Division(/), Modulus(%) ), Relational (<, >, <=, >=, ==, !=, ),
+Assignment (=. +=, -=, /=, *=, %= ),
+Logical (and, or not ), Membership, Identity, and Bitwise Operators
+
+Q -> 6). 9. What Does the // Operator Do?
+Ans -> 6). In Python, the / operator performs division and returns the quotient in the float.
+For example: 5 / 2 returns 2.5
+The // operator, on the other hand, returns the quotient in integer.
+For example: 5 // 2 returns 2
+
+Q -> 7). What is Pass in Python?
+Ans -> 7). Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, 
+where there should be a blank left and nothing has to be written there.
+
+Q -> 8). What is the difference between Pass and Continue in Python?
+Ans -> 8). The continue statement makes the loop to resume from the next iteration.
+On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+Q -> 9). When should you use the "Break" in Python?
+Ans -> 9). Python provides a break statement to exit from a loop. Whenever the break hits in the code, 
+the control of the program immediately exits from the body of the loop.
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+Q -> 10). When do you choose a list over a tuple?
+Ans -> 10). When there is an immutable ordered list of elements we choose tuple. 
+Because we cannot add/remove an element from the tuple. On the other hand, we can add elements 
+to a list using append () or extend() or insert(), etc., and delete elements from a list using remove() or pop(). 
+Simple tuples are immutable, and lists are not.
+
+Q -> 11). What does the Continue do in Python?
+Ans -> 11). The continue is a jump statement in Python which moves the control to execute the next iteration 
+in a loop leaving all the remaining instructions in the block unexecuted. 
+The continue statement is applicable for both the “while” and “for” loops.
+
+Q -> 12). What is a built-in function that Python uses to iterate over a number sequence?
+Ans -> 12). Range() generates a list of numbers, which is used to iterate over for loops.
+The range() function accompanies two sets of parameters.
+ range(stop)
+stop: It is the no. of integers to generate and starts from zero. eg. range(3) == [0, 1, 2].
+range([start], stop[, step])
+Start: It is the starting no. of the sequence.
+Stop: It specifies the upper limit of the sequence.
+Step: It is the incrementing factor for generating the sequence.
+
+Q -> 13). How does For Loop and While Loop differ in Python and when do you choose to use them?
+Ans -> 13). For loop is generally used to iterate through the elements of various collection 
+types such as List, Tuple, Set, and Dictionary.
+While loop is the actual looping feature that is used in any other programming language. 
+This is how Python differs in handling loops from the other programming languages.
+
+Q -> 14). What is lambda in Python?
+Ans -> 14). Anonymous function means that a function is without a name. As we already know that 
+def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+lambda arguments: expression
+
+Q -> 15). Mention what are the rules for local and global variables in Python?
+Ans -> 15). Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+Q -> 16). Mention the use of split function in Python?
+Ans -> 16). The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. 
+It gives a list of all words present in the string.
+
+Q -> 17). What are the principle differences between lambda and def?
+Ans -> 17). Lambda Vs. Def.
+1. Def can hold multiple expressions while lambda is a uni-expression function.
+2. Def generates a function and designates a name to call it later. Lambda forms a function object and returns it.
+3. Def can have a return statement. Lambda can’t have return statements.
+4. Lambda supports to get used inside a list and dictionary.
+
+Q -> 18). What is a Function in Python Programming?
+Ans -> 18). A function is an object which represents a block of code and is a reusable entity. 
+It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+Q -> 19). What is the return keyword used for in Python?
+Ans -> 19). The purpose of a function is to receive the inputs and return some output.
+The return is a Python statement which we can use in a function for sending a value back to its caller.
+
+Q -> 20). What is *args and **kwargs?
+Ans -> 20). *args is used when the programmer is not sure about how many arguments are going to be passed to a function, 
+or if the programmer is expecting a list or a tuple as argument to the function.
+**kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
